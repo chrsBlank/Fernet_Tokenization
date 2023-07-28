@@ -18,6 +18,14 @@ I really dont like JWT, since I believe it has some major security problems, so 
 - [Relative Delta] - dateutil.relativedelta 
 - [PathLib] - pathlib
 
+## Usage
+Import the Fertok.py as a library
+
+```py
+import Fertok
+```
+and use the functions of the module in your python script just like any other library
+
 ## License
 
 Apache Lincense 2.0
