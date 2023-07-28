@@ -48,10 +48,10 @@ and use the functions of the module in your python script just like any other li
 
 Apache Lincense 2.0
 
-[here] = <https://cryptography.io/en/latest/fernet/>
-[Fernet] = <https://cryptography.io/en/latest/fernet/>
-[Datetime] = <https://docs.python.org/3/library/datetime.html>
-[MariaDB Connector] = <https://mariadb.com/kb/en/about-mariadb-connector-python/>
-[Relative Delta] = <https://dateutil.readthedocs.io/en/stable/relativedelta.html>
-[PathLib] = <https://docs.python.org/3/library/pathlib.html>
+[here]: <https://cryptography.io/en/latest/fernet/>
+[Fernet]: <https://cryptography.io/en/latest/fernet/>
+[Datetime]: <https://docs.python.org/3/library/datetime.html>
+[MariaDB Connector]: <https://mariadb.com/kb/en/about-mariadb-connector-python/>
+[Relative Delta]: <https://dateutil.readthedocs.io/en/stable/relativedelta.html>
+[PathLib]: <https://docs.python.org/3/library/pathlib.html>
 
