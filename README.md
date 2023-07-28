@@ -19,6 +19,24 @@ I really dont like JWT, since I believe it has some major security problems, so 
 - [PathLib] - pathlib
 
 ## Usage
+
+To generate your fernet key you can use this
+
+```py
+from cryptography.fernet import Fernet
+
+key = Fernet.generate_key()
+
+f = Fernet(key)
+
+print(key)
+```
+The generation was found [here] 
+
+Save the key in a file called filekey.key in the same directory as the Fetok.py file and your script
+
+##
+
 Import the Fertok.py as a library
 
 ```py
@@ -29,4 +47,11 @@ and use the functions of the module in your python script just like any other li
 ## License
 
 Apache Lincense 2.0
+
+[here] = <https://cryptography.io/en/latest/fernet/>
+[Fernet] = <https://cryptography.io/en/latest/fernet/>
+[Datetime] = <https://docs.python.org/3/library/datetime.html>
+[MariaDB Connector] = <https://mariadb.com/kb/en/about-mariadb-connector-python/>
+[Relative Delta] = <https://dateutil.readthedocs.io/en/stable/relativedelta.html>
+[PathLib] = <https://docs.python.org/3/library/pathlib.html>
 
