@@ -14,9 +14,9 @@ fernet = Fernet(key)
 def connectDB():
     mydb = mariadb.connect(
     host = "localhost",
-    user = "join-dev",
-    password = "joindev",
-    database = "join_dev"
+    user = "user",
+    password = "password",
+    database = "db"
     )
     return mydb
 
